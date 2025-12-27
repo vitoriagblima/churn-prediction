@@ -71,54 +71,42 @@ O projeto foi desenvolvido como um **caso completo de Data Science**, cobrindo t
 
 ## 🗂 Estrutura do Projeto
 
-churn/
+O projeto foi organizado de forma modular, separando claramente cada responsabilidade do pipeline de dados e machine learning.
 
-│ Dockerfile
-│ README.md
-│ requirements.txt
-│
+### 📊 Análise e Modelagem
+- `notebooks/`  
+  Contém os notebooks responsáveis pela análise exploratória, engenharia de atributos, modelagem, ajuste de threshold e validação das predições.
 
-├── api/
-│ ├── main.py
-│ └── requirements.txt
+### 🧠 Código Reutilizável
+- `src/`  
+  Funções reutilizáveis de feature engineering, visualizações e simulação de dados, utilizadas tanto nos notebooks quanto em produção.
 
-│
-├── batch/
-│ └── predict_batch.py
+### 🔄 Inferência em Lote
+- `batch/`  
+  Script responsável por executar predições em massa sobre clientes ativos e gerar o arquivo final de predições para consumo analítico.
 
-│
-├── data/
-│ ├── raw/
-│ │ └── telco_churn.csv
-│ ├── processed/
-│ │ ├── X_test.pkl
-│ │ └── y_test.pkl
-│ └── clientes_ativos.csv
-│
-├── frontend/
-│ └── app.py
-│
-├── models/
-│ ├── best_random_forest.pkl
-│ └── metricas_modelo.pkl
-│
-├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_modelagem_baseline.ipynb
-│ ├── 04_modelagem_avancada.ipynb
-│ ├── 05_threshold_e_custo.ipynb
-│ └── 06_validacao_predicoes.ipynb
-│
-├── predictions/
-│ └── churn_predicoes.csv
-│
-└── src/
-├── feature_engineering.py
-├── graficos_churn.py
-└── criar_clientes_ativos.py
+### 🌐 API de Predição
+- `api/`  
+  Implementação de uma API em FastAPI que permite a predição individual de churn em tempo real.
 
----
+### 🖥️ Interface de Demonstração
+- `frontend/`  
+  Aplicação em Streamlit para demonstração interativa do modelo, simulando o uso por áreas de negócio.
+
+### 📦 Modelos Treinados
+- `models/`  
+  Armazena o modelo final treinado e métricas salvas.
+
+### 📊 Dados e Resultados
+- `data/`  
+  Dados brutos, processados e base simulada de clientes ativos.
+- `predictions/`  
+  Arquivo final com probabilidades de churn e faixas de risco, pronto para consumo em Power BI.
+
+### ⚙️ Configuração
+- `requirements.txt` — dependências do projeto  
+- `Dockerfile` — containerização  
+- `README.md` — documentação
 
 ## 📁 Descrição dos Componentes
 
