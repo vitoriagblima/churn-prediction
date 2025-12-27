@@ -13,7 +13,7 @@
   👉 https://churn-api-vprr.onrender.com/docs
 
 - 🖥️ **Demo Interativa (Streamlit Cloud)**  
-  👉 https://churn-projectbyvitoriagblima.streamlit.app/
+  👉 https://churn-prediction-byvitoriagblima.streamlit.app/
 
 > A API permite predição individual de churn.  
 > A interface Streamlit funciona como uma demonstração interativa do modelo.
