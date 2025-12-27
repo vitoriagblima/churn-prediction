@@ -142,3 +142,35 @@ Projeto desenvolvido como estudo prático de **Data Science aplicado a dados rea
 - Dashboard executivo no Power BI
 - Monitoramento de performance e drift
 - Automação de batch (MLOps básico)
+
+## ⬇️ Como Baixar e Executar o Projeto
+
+Existem duas formas principais de obter o projeto: **download direto** ou **clonagem com Git**.  
+A segunda é a forma recomendada para estudo e execução local.
+
+---
+
+### ✅ Opção 1 — Download direto (ZIP)
+
+Indicada para quem deseja apenas visualizar o código.
+
+1. Acesse o repositório no GitHub  
+2. Clique no botão **Code**
+3. Selecione **Download ZIP**
+4. Extraia o arquivo no seu computador
+
+⚠️ Observação: esta opção não mantém o histórico de versões do Git.
+
+---
+
+### ✅ Opção 2 — Clonar o repositório (Recomendado)
+
+Indicada para execução local, estudos e modificações.
+
+#### 1️⃣ Clone o repositório
+
+Abra o terminal (PowerShell ou Git Bash) e execute:
+
+```bash
+git clone https://github.com/vitoriagblima/churn-prediction.git
+
