@@ -69,45 +69,6 @@ O projeto foi desenvolvido como um **caso completo de Data Science**, cobrindo t
 
 ---
 
-## 🗂 Estrutura do Projeto
-
-O projeto foi organizado de forma modular, separando claramente cada responsabilidade do pipeline de dados e machine learning.
-
-### 📊 Análise e Modelagem
-- `notebooks/`  
-  Contém os notebooks responsáveis pela análise exploratória, engenharia de atributos, modelagem, ajuste de threshold e validação das predições.
-
-### 🧠 Código Reutilizável
-- `src/`  
-  Funções reutilizáveis de feature engineering, visualizações e simulação de dados, utilizadas tanto nos notebooks quanto em produção.
-
-### 🔄 Inferência em Lote
-- `batch/`  
-  Script responsável por executar predições em massa sobre clientes ativos e gerar o arquivo final de predições para consumo analítico.
-
-### 🌐 API de Predição
-- `api/`  
-  Implementação de uma API em FastAPI que permite a predição individual de churn em tempo real.
-
-### 🖥️ Interface de Demonstração
-- `frontend/`  
-  Aplicação em Streamlit para demonstração interativa do modelo, simulando o uso por áreas de negócio.
-
-### 📦 Modelos Treinados
-- `models/`  
-  Armazena o modelo final treinado e métricas salvas.
-
-### 📊 Dados e Resultados
-- `data/`  
-  Dados brutos, processados e base simulada de clientes ativos.
-- `predictions/`  
-  Arquivo final com probabilidades de churn e faixas de risco, pronto para consumo em Power BI.
-
-### ⚙️ Configuração
-- `requirements.txt` — dependências do projeto  
-- `Dockerfile` — containerização  
-- `README.md` — documentação
-
 ## 📁 Descrição dos Componentes
 
 ### 📊 Notebooks
