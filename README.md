@@ -74,82 +74,46 @@ O projeto foi desenvolvido como um **caso completo de Data Science**, cobrindo t
 churn/
 
 │ Dockerfile
-
 │ README.md
-
 │ requirements.txt
-
 │
-
 ├── api/
-
 │ ├── main.py
-
 │ └── requirements.txt
-
 │
-
 ├── batch/
-
 │ └── predict_batch.py
-
 │
-
 ├── data/
-
 │ ├── raw/
-
 │ │ └── telco_churn.csv
-
 │ ├── processed/
-
 │ │ ├── X_test.pkl
-
 │ │ └── y_test.pkl
-
 │ └── clientes_ativos.csv
-
 │
 ├── frontend/
-
 │ └── app.py
-
 │
 ├── models/
-
 │ ├── best_random_forest.pkl
-
 │ └── metricas_modelo.pkl
-
 │
 ├── notebooks/
-
 │ ├── 01_eda.ipynb
-
 │ ├── 02_feature_engineering.ipynb
-
 │ ├── 03_modelagem_baseline.ipynb
-
 │ ├── 04_modelagem_avancada.ipynb
-
 │ ├── 05_threshold_e_custo.ipynb
-
 │ └── 06_validacao_predicoes.ipynb
 │
 ├── predictions/
-
 │ └── churn_predicoes.csv
-
 │
 └── src/
-
 ├── feature_engineering.py
-
 ├── graficos_churn.py
-
 └── criar_clientes_ativos.py
-
-
 
 ---
 
