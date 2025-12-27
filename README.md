@@ -212,7 +212,6 @@ está pronto para ser conectado diretamente ao **Power BI**, possibilitando aná
 ✔️ Modelo validado  
 ✔️ Inferência em lote funcional  
 ✔️ API e interface disponíveis  
-✔️ Pronto para portfólio e demonstrações  
 
 ---
 
